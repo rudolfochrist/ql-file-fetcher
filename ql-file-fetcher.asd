@@ -13,8 +13,7 @@
   :bug-tracker "https://github.com/rudolfochrist/ql-file-fetcher/issues"
   :source-control (:git "https://github.com/rudolfochrist/ql-file-fetcher.git")
   :version (:read-file-line "version")
-  :depends-on ((:require "uiop")
-               "quri")
+  :depends-on ((:require "uiop"))
   :components ((:file "file-fetcher"))
   :description "Quicklisp fetcher for file:// URLs"
   :long-description
